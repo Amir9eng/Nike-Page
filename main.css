@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body{
+  background-color: blueviolet;
+  font-family:"Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+main{
+  background-color: white;
+  width: 60rem;
+  height: 35rem;
+  margin:  4rem auto;
+  display: flex;
+  border-radius: 1rem;
+}
+.shoe-image{
+  width: 30vw;
+  height: 100%;
+  background-color: rgb(100, 245, 200);
+}
+.nikeShoe{
+  position: relative;
+  left: -70px;
+}
+
+.content{
+  width: 60vw;
+  height: 100vh;
+  padding: 2rem 0 0 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.truncation{
+  display: flex;
+}
+.truncated{
+  text-decoration: line-through;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.truncation span{
+  color: red;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h5{
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 600;
+  
+}
+.description{
+  color: grey;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.nike{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444444;
+  font-weight: bold;
+}
+.mint{
+  color: rgb(204,213,228);
+  font-style: italic;
+  padding: 1rem 0;
+  font-weight: bold;  
+}
+
+.color{
+  display: flex;
+}
+.green-mint{
+  width: 20px;
+  height: 20px;
+  border-radius: 50% ;
+  background-color: #4ED8C8;
+  margin-right: 0.5rem;
+}
+
+
+.yellow{
+  width: 20px;
+  height: 20px;
+  border-radius: 50% ;
+  background-color: #FFEE71;
+  margin-right: 0.5rem;
+}
+.purple{
+  width: 20px;
+  height: 20px;
+  border-radius: 50% ;
+  background-color: #6654AF;
+  margin-right: 0.5rem;
+}
+.black{
+  width: 20px;
+  height: 20px;
+  border-radius: 50% ;
+  background-color: #343434;
+  margin-right: 0.5rem;
+}
+.grey{
+  width: 20px;
+  height: 20px;
+  border-radius: 50% ;
+  background-color: #DFDFDF;
+  margin-right: 0.5rem;
+}
+.span{
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+.line{
+  width: 0.0125rem;
+  height: 3rem;
+  background-color: #DFDFDF;
+  margin-bottom: 1rem;
+}
